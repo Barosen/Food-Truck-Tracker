@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    private var locationManager = LocationManager()
+    
+    
     var body: some View {
         MapsView()
     }
